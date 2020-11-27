@@ -67,7 +67,7 @@ export default {
   methods: {
     openDetail: function (item) {
       console.log(item);
-      this.movieData = item;
+      this.movieData = {...item};
       this.showDetails = true;
     },
   },
